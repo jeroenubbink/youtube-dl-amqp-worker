@@ -10,13 +10,17 @@ Just clone the thing.
 Configure RabbitMQ and download location in `config.yml`
 Check the `config.yml.example` for an example configuration.
 Configuration can also be exposed through environment variables. They will
-Take precedence over `config.yml`.
+take precedence over `config.yml`.
 
 For ease of use you can run RabbitMQ in docker by running: `docker-compose up`.
 
 ### Prerequisites
 
 Docker (optional)
+
+### Event format
+
+`{"url": "<some youtube url>"}`
 
 ## Versioning
 
